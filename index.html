@@ -50,7 +50,7 @@
          </li>
         `;
       }).join('')
-      suggestion.innerHTML = showingData
+       suggestion.innerHTML = showingData ? showingData : `<li><span class="name">No data Found</span></li>`
     }
     
     
